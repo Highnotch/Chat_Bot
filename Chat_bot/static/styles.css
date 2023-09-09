@@ -1,0 +1,42 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+}
+
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.chat-messages {
+    border: 1px solid #dc9d67;
+    padding: 10px;
+    height: 1000px;
+    overflow-y: scroll;
+}
+
+.user-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+#user-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #e1a4a4;
+}
+
+#send-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
