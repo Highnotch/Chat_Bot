@@ -4,7 +4,8 @@ import sys
 from flask import Flask, render_template, request
 
 
-openai.api_key = "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"
+openai.api_key = "OpenAPI_key"  # replace with your API key
+
 def generate_chatbot_response(components):
   
   response = openai.ChatCompletion.create(
